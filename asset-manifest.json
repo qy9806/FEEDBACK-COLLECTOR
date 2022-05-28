@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/FEEDBACK-COLLECTOR/static/css/main.536a28be.css",
+    "main.js": "/FEEDBACK-COLLECTOR/static/js/main.d2289389.js",
+    "static/media/d.png": "/FEEDBACK-COLLECTOR/static/media/d.a94bc28d96e232c2c8ba.png",
+    "index.html": "/FEEDBACK-COLLECTOR/index.html",
+    "main.536a28be.css.map": "/FEEDBACK-COLLECTOR/static/css/main.536a28be.css.map",
+    "main.d2289389.js.map": "/FEEDBACK-COLLECTOR/static/js/main.d2289389.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.536a28be.css",
+    "static/js/main.d2289389.js"
+  ]
+}
