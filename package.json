@@ -1,6 +1,6 @@
 {
-  "homepage":"http://qy9806.github.io/FEEDBACK-COLLECTOR",
-  "name": "irrc-feedback",
+  "homepage":"http://qy9806.github.io/rcfeedback",
+  "name": "rcfeedback",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
