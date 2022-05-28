@@ -34,24 +34,16 @@ const handleTextchange =(e)=>{
             setText('')
         }
     }
-    
+
   return (
       <>
     <Card >
         <form onSubmit={handleSubmit}>
-            <h2>How would you rate our content and web service?</h2>
-            <RatingSelect select={(rating)=>setRating(rating)}/>
-            <div className="input-group">
-                <input onChange={handleTextchange}  type="text" placeholder='write a review' value={text}/>
-                <Button type='submit' isDisabled={BtnDisabled}>send</Button>
-            </div>
-            {message&&<div className='message'>{message}</div>}
-        </form>
-    </Card>
-    <Card >
-        <form onSubmit={handleSubmit}>
-            <h2>How you experienced any service Latency?</h2>
+            <h2>1.How would you rate our content and web service?</h2>
+            <h2>2.Have you experienced any web page Latency?</h2>
+            
             <p style={{textAlignVertical: "center",textAlign: "center"}}>*1 is extremely latent 10 is no latent</p>
+            <h2>3.How likely you would continue to use our service</h2>
             <RatingSelect select={(rating)=>setRating(rating)}/>
             <div className="input-group">
                 <input onChange={handleTextchange}  type="text" placeholder='write a review' value={text}/>
@@ -60,6 +52,7 @@ const handleTextchange =(e)=>{
             {message&&<div className='message'>{message}</div>}
         </form>
     </Card>
+
     </>
   )
 }
